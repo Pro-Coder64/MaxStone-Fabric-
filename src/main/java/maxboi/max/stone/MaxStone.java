@@ -13,7 +13,7 @@ public class MaxStone implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		
-		Registry.register(Registry.ITEM, new Identifier("maxstone", "maxstone"));
+		Registry.register(Registry.ITEM, new Identifier("maxstone", "maxstone"), MAXSTONE);
 
 	}
 }
