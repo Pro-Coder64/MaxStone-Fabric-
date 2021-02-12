@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "maxstone",
+  "version": "${version}",
+
+  "name": "(MaxBoi64) MaxStone Mod!",
+  "description": "This mod adds a new type of gem called \"MaxStone\"! You can make tools, armour and a cool shiny MaxStone block, which can be found in the nether and in the overworld!",
+  "authors": [
+    "MaxBoi64"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
